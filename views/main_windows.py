@@ -22,3 +22,4 @@ class ScrollBar(tk.Frame):
         self.combo = ttk.Combobox(self, state="readonly", values=["Opción 1", "Opción 2", "Opción 3", "Opción 4"])
         self.combo.pack(padx=10, pady=10)
         self.pack(padx=10, pady=10)
+        
